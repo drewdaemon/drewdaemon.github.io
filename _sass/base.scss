@@ -14,9 +14,26 @@ body {
   margin: 0 auto;
 }
 
+.postContent {
+  max-width: 700px;
+}
+
+.indexContent {
+  max-width: 500px;
+}
+
+.blogTitle {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
 ul.postList {
 	padding-left: 0;
 	li {
 		list-style-type: none;
 	}
+}
+
+.postDate {
+  color: #aaa;
 }
