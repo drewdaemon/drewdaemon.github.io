@@ -1,6 +1,11 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: "Times New Roman", Times, serif;
+$baseFontSize: 20px;
+
+html {
+  font-size: $baseFontSize;
+}
 
 body {
   background: $backgroundColor;
@@ -28,10 +33,13 @@ body {
 }
 
 ul.postList {
-	padding-left: 0;
-	li {
-		list-style-type: none;
-	}
+  padding-left: 0;
+  font-size: 1.1rem;
+
+  li {
+    list-style-type: none;
+    padding-top: .2rem;
+  }
 }
 
 .postDate {

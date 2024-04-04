@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<i>The Design of Everyday Things</i>—chapter 1 synopsis"
+title: "Synopsis of the first chapter of <i>The Design of Everyday Things</i>"
 tags: "reading notes"
 ---
 
