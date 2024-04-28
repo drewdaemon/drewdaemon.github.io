@@ -57,7 +57,7 @@ The bank is just a lender. When it comes to swings in the housing market—for b
 
 ## Inflation compounds
 
-Compound interest is one of the most exciting concepts in personal finance. You put a dollar in an investment. You get a 10% return the first year, meaning you earn 10 cents! Now, you have $1.10 in your investment for the second year. The second year, you get another year of 10% returns. Now, this year, you made 11 cents, one cent more than last year.
+Compound interest is one of the most exciting concepts in personal finance. You put a dollar in an investment. You get a 10% return the first year, meaning you earn 10 cents! Now, you have $1.10 in your investment for the second year. The second year, you get another 10% return. But this time, you made 11 cents, one cent more than last year.
 
 When this happens consistently over many years, the growth of your money is not linear, it is exponential. In other words, your money isn't just growing at a steady rate but is rather in a constant state of acceleration. What could be more magical?
 
@@ -111,9 +111,9 @@ If a stock goes down 50%, it takes _more_ than a 50% increase to recover its val
 
 The natural takeaway here is that avoiding losses is somewhat more important than chasing gains.
 
-How do you moderate losses? You diversify your investments. 
+How do you moderate losses? You spread your money across a diverse set of promising investments. 
 
-What's the best way to diversify? I personally like to hire a team of financial professionals and smart machine learning algorithms to work 80hr weeks doing it for me. That's right... I'm talking about putting your money in a good mutual fund.
+What's the best way to diversify? I personally like to hire a team of financial professionals and smart machine learning algorithms to work 80hr weeks doing it for me. That's right... I'm talking about putting money in a good mutual fund.
 
 
 ## Footnotes
