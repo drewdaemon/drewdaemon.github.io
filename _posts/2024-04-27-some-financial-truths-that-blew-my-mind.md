@@ -59,6 +59,8 @@ The bank is just a lender. When it comes to swings in the housing market—for b
 
 Compound interest is one of the most exciting concepts in personal finance. You put a dollar in an investment. You get a 10% return the first year, meaning you earn 10 cents! Now, you have $1.10 in your investment for the second year. The second year, you get another 10% return. But this time, you made 11 cents, one cent more than last year.
 
+<div style="width: 100%" id="chart3"></div>
+
 When this happens consistently over many years, the growth of your money is not linear, it is exponential. In other words, your money isn't just growing at a steady rate but is rather in a constant state of acceleration. What could be more magical?
 
 I felt like death the day I realized that inflation acts the very same way.
@@ -103,7 +105,7 @@ I recommend reading the great explanation on that blog but I'll give a quick ove
 
 The key observation is that if you suffer an X percent loss in the value of an asset you need _more_ than an X percent gain to make up for it.
 
-<div style="width: 100%" id="chart3"></div>
+<div style="width: 100%" id="chart4"></div>
 
 If a stock goes down 50%, it takes _more_ than a 50% increase to recover its value.
 
@@ -517,6 +519,245 @@ const spec2 = {
 
 
 const spec3 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+    {
+        "value": 1,
+        "label": "linear",
+        "time": 0
+    },
+    {
+        "value": 1,
+        "label": "compounded",
+        "time": 0
+    },
+    {
+        "value": 1.1,
+        "label": "linear",
+        "time": 1
+    },
+    {
+        "value": 1.1,
+        "label": "compounded",
+        "time": 1
+    },
+    {
+        "value": 1.2000000000000002,
+        "label": "linear",
+        "time": 2
+    },
+    {
+        "value": 1.2100000000000002,
+        "label": "compounded",
+        "time": 2
+    },
+    {
+        "value": 1.3000000000000003,
+        "label": "linear",
+        "time": 3
+    },
+    {
+        "value": 1.3310000000000002,
+        "label": "compounded",
+        "time": 3
+    },
+    {
+        "value": 1.4000000000000004,
+        "label": "linear",
+        "time": 4
+    },
+    {
+        "value": 1.4641000000000002,
+        "label": "compounded",
+        "time": 4
+    },
+    {
+        "value": 1.5000000000000004,
+        "label": "linear",
+        "time": 5
+    },
+    {
+        "value": 1.61051,
+        "label": "compounded",
+        "time": 5
+    },
+    {
+        "value": 1.6000000000000005,
+        "label": "linear",
+        "time": 6
+    },
+    {
+        "value": 1.7715610000000002,
+        "label": "compounded",
+        "time": 6
+    },
+    {
+        "value": 1.7000000000000006,
+        "label": "linear",
+        "time": 7
+    },
+    {
+        "value": 1.9487171,
+        "label": "compounded",
+        "time": 7
+    },
+    {
+        "value": 1.8000000000000007,
+        "label": "linear",
+        "time": 8
+    },
+    {
+        "value": 2.1435888100000002,
+        "label": "compounded",
+        "time": 8
+    },
+    {
+        "value": 1.9000000000000008,
+        "label": "linear",
+        "time": 9
+    },
+    {
+        "value": 2.357947691,
+        "label": "compounded",
+        "time": 9
+    },
+    {
+        "value": 2.000000000000001,
+        "label": "linear",
+        "time": 10
+    },
+    {
+        "value": 2.5937424601,
+        "label": "compounded",
+        "time": 10
+    },
+    {
+        "value": 2.100000000000001,
+        "label": "linear",
+        "time": 11
+    },
+    {
+        "value": 2.8531167061100002,
+        "label": "compounded",
+        "time": 11
+    },
+    {
+        "value": 2.200000000000001,
+        "label": "linear",
+        "time": 12
+    },
+    {
+        "value": 3.1384283767210004,
+        "label": "compounded",
+        "time": 12
+    },
+    {
+        "value": 2.300000000000001,
+        "label": "linear",
+        "time": 13
+    },
+    {
+        "value": 3.4522712143931003,
+        "label": "compounded",
+        "time": 13
+    },
+    {
+        "value": 2.4000000000000012,
+        "label": "linear",
+        "time": 14
+    },
+    {
+        "value": 3.7974983358324104,
+        "label": "compounded",
+        "time": 14
+    },
+    {
+        "value": 2.5000000000000013,
+        "label": "linear",
+        "time": 15
+    },
+    {
+        "value": 4.177248169415652,
+        "label": "compounded",
+        "time": 15
+    },
+    {
+        "value": 2.6000000000000014,
+        "label": "linear",
+        "time": 16
+    },
+    {
+        "value": 4.594972986357217,
+        "label": "compounded",
+        "time": 16
+    },
+    {
+        "value": 2.7000000000000015,
+        "label": "linear",
+        "time": 17
+    },
+    {
+        "value": 5.054470284992938,
+        "label": "compounded",
+        "time": 17
+    },
+    {
+        "value": 2.8000000000000016,
+        "label": "linear",
+        "time": 18
+    },
+    {
+        "value": 5.559917313492232,
+        "label": "compounded",
+        "time": 18
+    },
+    {
+        "value": 2.9000000000000017,
+        "label": "linear",
+        "time": 19
+    },
+    {
+        "value": 6.115909044841455,
+        "label": "compounded",
+        "time": 19
+    }
+]
+  },
+  "width": "container",
+  "transform": [
+    {"calculate": "datum.label === 'paid' ? 1 : 0", "as": "percent"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "strokeWidth": 4},
+      "title": "The power of compound interest",
+      "encoding": {
+        "x": {
+          "field": "time",
+          "type": "quantitative",
+          "title": "Years"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Value",
+          "axis": {"format": "$.2f"}
+        },
+        "color": {
+          "field": "label",
+          "title": null,
+          "legend": {
+            "labelExpr": "datum.label == 'compounded' ? 'With compounding' : 'Without compounding'"
+          }
+        }
+      }
+    }
+  ]
+}
+
+
+const spec4 = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
         "values": [
@@ -598,6 +839,7 @@ const spec3 = {
 vegaEmbed('#chart1', spec1);
 vegaEmbed('#chart2', spec2);
 vegaEmbed('#chart3', spec3);
+vegaEmbed('#chart4', spec4);
 </script>
 
 
