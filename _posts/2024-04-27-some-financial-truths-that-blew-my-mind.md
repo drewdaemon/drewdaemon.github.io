@@ -19,9 +19,9 @@ This is a bit of an exaggeration. But you'll soon see that it's close to the tru
 
 For a long time, my subconscious self applied this to mortgages. I thought of it like this: you start with a 20% down payment so you own 20% of your home. Your mortgage payments gradually increase this number over 15-30 years until you finally own 100% of the property.
 
-<div style="width: 100%" id="chart1"></div>
-
 So, the bank starts with 80% and slowly sells you its share.
+
+<div style="width: 100%" id="chart1"></div>
 
 How wrong I was.
 
@@ -59,9 +59,9 @@ The bank is just a lender. When it comes to swings in the housing market—for b
 
 Compound interest is one of the most exciting concepts in personal finance. You put a dollar in an investment. You get a 10% return the first year, meaning you earn 10 cents! Now, you have $1.10 in your investment for the second year. The second year, you get another 10% return. But this time, you made 11 cents, one cent more than last year.
 
-<div style="width: 100%" id="chart3"></div>
-
 When this happens consistently over many years, the growth of your money is not linear, it is exponential. In other words, your money isn't just growing at a steady rate but is rather in a constant state of acceleration. What could be more magical?
+
+<div style="width: 100%" id="chart3"></div>
 
 I felt like death the day I realized that inflation acts the very same way.
 
@@ -105,9 +105,9 @@ I recommend reading the great explanation on that blog but I'll give a quick ove
 
 The key observation is that if you suffer an X percent loss in the value of an asset you need _more_ than an X percent gain to make up for it.
 
-<div style="width: 100%" id="chart4"></div>
-
 If a stock goes down 50%, it takes _more_ than a 50% increase to recover its value.
+
+<div style="width: 100%" id="chart4"></div>
 
 ### Why it matters
 
