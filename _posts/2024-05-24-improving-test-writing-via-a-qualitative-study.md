@@ -151,7 +151,8 @@ the change, many of my teammates have told me how
 much better things are. One said, "I actually _enjoy_ writing unit tests."
 
 This is the kind of change that incentivizes itself. As soon as people
-catch the vision, the change will be sustained and broad.
+catch the vision, the change will be sustained and broad, perhaps even
+broader than the proposal.
 
 We'll be all the better for it.
 
