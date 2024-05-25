@@ -45,7 +45,8 @@ just didn't love writing Jest tests.
 Later that year, I started interviewing my teammates and folks
 from our sister teams, using a few prepared prompts to get the discussion going:
 - Compare/contrast your experiences writing unit and functional tests.
-- What are your biggest points of friction when using Jest to test UI in Kibana?
+- What are your biggest points of friction when using Jest to test UI in Kibana? (I purposely avoided the 
+term "unit test" since that implies a specific level of granularity.)
 - What strategies have you found useful to increase the effectiveness or maintainability of your tests?
 
 As I took notes from each interview, themes quickly emerged.
@@ -85,7 +86,8 @@ started "working properly."
 
 After having to do so much just to get the UI 
 to act like it really does in our application, it's hard not to question the
-fidelity (and hence, the value) of the tests anyways.
+fidelity (and hence, the value) of the tests anyways. (My tech lead called these
+"glorified compilation checks" because that's basically all they amount to.)
 
 Enzyme also lacks the visual feedback of a browser test. When a
 browser test is failing, you can run the test and literally watch
